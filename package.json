@@ -1,0 +1,36 @@
+{
+  "name": "docutheme",
+  "displayName": "Docutheme",
+  "publisher": "Docutheme",
+  "icon": "docutheme.png",
+  "description": "",
+  "version": "0.0.2",
+  "author": {
+    "name": "Febrian"
+  },
+  "engines": {
+    "vscode": "^1.87.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "keywords": [
+    "docu",
+    "theme",
+    "themes",
+    "docuthemes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Satu",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Satu-color-theme.json"
+      }
+    ]
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/feanra/docutheme.git"
+  }
+}
